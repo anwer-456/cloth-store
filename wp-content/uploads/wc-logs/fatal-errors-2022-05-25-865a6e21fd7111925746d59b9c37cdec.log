@@ -1,0 +1,54 @@
+2022-05-25T07:18:50+00:00 CRITICAL syntax error, unexpected 'home_slider' (T_STRING), expecting ')' in /Users/anwar/Local Sites/cloth-store/app/public/wp-content/themes/twentytwentyone/home.php on line 8
+
+2022-05-25T07:19:35+00:00 CRITICAL syntax error, unexpected 'home_slider' (T_STRING), expecting ')' in /Users/anwar/Local Sites/cloth-store/app/public/wp-content/themes/twentytwentyone/home.php on line 8
+
+2022-05-25T11:21:28+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /Users/anwar/Local Sites/cloth-store/app/public/wp-content/themes/twentytwentyone/footer.php:55
+Stack trace:
+#0 /Users/anwar/Local Sites/cloth-store/app/public/wp-includes/template.php(770): require_once()
+#1 /Users/anwar/Local Sites/cloth-store/app/public/wp-includes/template.php(716): load_template('/Users/anwar/Lo...', true, Array)
+#2 /Users/anwar/Local Sites/cloth-store/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/anwar/Local Sites/cloth-store/app/public/wp-content/themes/twentytwentyone/home.php(293): get_footer()
+#4 /Users/anwar/Local Sites/cloth-store/app/public/wp-includes/template-loader.php(106): include('/Users/anwar/Lo...')
+#5 /Users/anwar/Local Sites/cloth-store/app/public/wp-blog-header.php(19): require_once('/Users/anwar/Lo...')
+#6 /Users/anwar/Local Sites/cloth-store/app/public/index.php(17): require('/Users/anwar/Lo...')
+#7 {main}
+  thrown in /Users/anwar/Local Sites/cloth-store/app/public/wp-content/themes/twentytwentyone/footer.php on line 55
+
+2022-05-25T11:21:29+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /Users/anwar/Local Sites/cloth-store/app/public/wp-content/themes/twentytwentyone/footer.php:55
+Stack trace:
+#0 /Users/anwar/Local Sites/cloth-store/app/public/wp-includes/template.php(770): require_once()
+#1 /Users/anwar/Local Sites/cloth-store/app/public/wp-includes/template.php(716): load_template('/Users/anwar/Lo...', true, Array)
+#2 /Users/anwar/Local Sites/cloth-store/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/anwar/Local Sites/cloth-store/app/public/wp-content/themes/twentytwentyone/404.php(27): get_footer()
+#4 /Users/anwar/Local Sites/cloth-store/app/public/wp-includes/template-loader.php(106): include('/Users/anwar/Lo...')
+#5 /Users/anwar/Local Sites/cloth-store/app/public/wp-blog-header.php(19): require_once('/Users/anwar/Lo...')
+#6 /Users/anwar/Local Sites/cloth-store/app/public/index.php(17): require('/Users/anwar/Lo...')
+#7 {main}
+  thrown in /Users/anwar/Local Sites/cloth-store/app/public/wp-content/themes/twentytwentyone/footer.php on line 55
+
+2022-05-25T11:21:45+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_name() in /Users/anwar/Local Sites/cloth-store/app/public/wp-content/themes/twentytwentyone/footer.php:55
+Stack trace:
+#0 /Users/anwar/Local Sites/cloth-store/app/public/wp-includes/template.php(770): require_once()
+#1 /Users/anwar/Local Sites/cloth-store/app/public/wp-includes/template.php(716): load_template('/Users/anwar/Lo...', true, Array)
+#2 /Users/anwar/Local Sites/cloth-store/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/anwar/Local Sites/cloth-store/app/public/wp-content/themes/twentytwentyone/home.php(293): get_footer()
+#4 /Users/anwar/Local Sites/cloth-store/app/public/wp-includes/template-loader.php(106): include('/Users/anwar/Lo...')
+#5 /Users/anwar/Local Sites/cloth-store/app/public/wp-blog-header.php(19): require_once('/Users/anwar/Lo...')
+#6 /Users/anwar/Local Sites/cloth-store/app/public/index.php(17): require('/Users/anwar/Lo...')
+#7 {main}
+  thrown in /Users/anwar/Local Sites/cloth-store/app/public/wp-content/themes/twentytwentyone/footer.php on line 55
+
+2022-05-25T11:21:45+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_name() in /Users/anwar/Local Sites/cloth-store/app/public/wp-content/themes/twentytwentyone/footer.php:55
+Stack trace:
+#0 /Users/anwar/Local Sites/cloth-store/app/public/wp-includes/template.php(770): require_once()
+#1 /Users/anwar/Local Sites/cloth-store/app/public/wp-includes/template.php(716): load_template('/Users/anwar/Lo...', true, Array)
+#2 /Users/anwar/Local Sites/cloth-store/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/anwar/Local Sites/cloth-store/app/public/wp-content/themes/twentytwentyone/404.php(27): get_footer()
+#4 /Users/anwar/Local Sites/cloth-store/app/public/wp-includes/template-loader.php(106): include('/Users/anwar/Lo...')
+#5 /Users/anwar/Local Sites/cloth-store/app/public/wp-blog-header.php(19): require_once('/Users/anwar/Lo...')
+#6 /Users/anwar/Local Sites/cloth-store/app/public/index.php(17): require('/Users/anwar/Lo...')
+#7 {main}
+  thrown in /Users/anwar/Local Sites/cloth-store/app/public/wp-content/themes/twentytwentyone/footer.php on line 55
+
+2022-05-25T12:15:23+00:00 CRITICAL syntax error, unexpected 'x20' (T_STRING), expecting ')' in /Users/anwar/Local Sites/cloth-store/app/public/wp-content/themes/twentytwentyone/home.php on line 264
+
