@@ -21,3 +21,12 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+*.sublime-project
+*.sublime-workspace
+*.map
+
+.DS_Store
+**/.DS_Store
+.vscode/
+~/
+.idea/
