@@ -27,8 +27,18 @@ https://core.trac.wordpress.org/search?q=twenty+twenty-one.
 The entire theme backend has been developed using ACF Pro which includes Theme Options, Footer through which all hard coded data has been changed via backend
 easily:
 
-# Bootstrap
+# Bootstrap & JQuery
 As mentioned Bootstrap Framework has been used in designing the actaul psd to in to a wordpress theme.
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 # WooCoomerce
 Demo products has been added and those products are fetched using woocommerce template tags which can be seen in design.
+
+# Website Hosting
+The website has been hosted on namecheap.
+
+# Demo
+You can see the demo here https://clothstore.anwarkhan.xyz
+
