@@ -24,7 +24,7 @@
 <!-- news section start here -->
 <div class="container">
    <div class="row">
-      <div class="p-2 h3 font-weight-lighter py-4 pt-6 mt-4"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Icon.png" alt="icon"> WHAT'S NEW?</div>
+      <div class="p-2 h3 font-weight-lighter py-4 pt-6 mt-4"><img src="<?php the_field('section_icon','options');?>" alt="icon"> WHAT'S NEW?</div>
       <div class="col-md-12">
          <div class="featured-carousel owl-carousel">
             <?php
@@ -37,12 +37,12 @@
                $loop = new WP_Query($args);
                while ($loop->have_posts()) : $loop->the_post();
                     ?>
-            <div class="item">
+               <div class="item">
                <div class="blog-entry">
                   <div class="item-image"> <?php echo get_the_post_thumbnail($loop->post->ID);?></div>
                   <div class="text py-4">
                      <div class="green-box">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Layer_68_copy.png" alt="">
+                        <img src="<?php the_field('cart_icon','options');?>" alt="">
                      </div>
                      <hr >
                      </hr>
@@ -62,7 +62,7 @@
 <div class="row">
    <!-- best seller start from here -->
    <div class="container">
-      <div class="p-2 h3 font-weight-lighter py-4 pt-6 mt-4"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Icon.png" alt="icon"> BEST SELLERS</div>
+      <div class="p-2 h3 font-weight-lighter py-4 pt-6 mt-4"><img src="<?php the_field('section_icon','options');?>" alt="icon"> BEST SELLERS</div>
       <div class="row">
          <div class="col-md-9">
             <div class=" featured-carousel-two owl-carousel">
@@ -82,7 +82,7 @@
                      </div>
                      <div class="text py-4">
                         <div class="green-box">
-                           <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Layer_68_copy.png" alt="">
+                           <img src="<?php the_field('cart_icon','options');?>" alt="">
                         </div>
                         <hr >
                         </hr>
@@ -130,7 +130,7 @@
                   </div>
                   <div class="text py-4">
                      <div class="green-box">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Layer_68_copy.png" alt="">
+                        <img src="<?php the_field('cart_icon','options');?>" alt="">
                      </div>
                      <hr >
                      </hr>
@@ -149,7 +149,7 @@
 </div>
 <!-- specail product start here -->
 <div class="container">
-   <div class="p-2 h3 font-weight-lighter py-4 pt-6 mt-4"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Icon.png" alt="icon"> SPECIAL PRODUCT</div>
+   <div class="p-2 h3 font-weight-lighter py-4 pt-6 mt-4"><img src="<?php the_field('section_icon','options');?>" alt="icon"> SPECIAL PRODUCT</div>
    <div class="row d-flex justify-content-between specail-product">
       <?php
          global $product;
@@ -166,7 +166,7 @@
             <div class="col-4 image-wrapper p-4">
                <?php echo get_the_post_thumbnail($loop->post->ID);?>
                <div class="green-box specail-green-box">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Layer_68_copy.png" alt="">
+                  <img src="<?php the_field('cart_icon','options');?>" alt="">
                </div>
             </div>
             <div class="col-8 content d-flex align-items-center">
@@ -196,7 +196,7 @@
             <div class="col-4 image-wrapper p-4">
                <?php echo get_the_post_thumbnail($loop->post->ID);?>
                <div class="green-box specail-green-box">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Layer_68_copy.png" alt="">
+                  <img src="<?php the_field('cart_icon','options');?>" alt="">
                </div>
             </div>
             <div class="col-8 content d-flex align-items-center">
@@ -253,7 +253,7 @@
 </div>
 <!-- latest blodg start here -->
 <div class="container">
-   <div class="p-2 h3 font-weight-lighter py-4 pt-6 mt-4"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Icon.png" alt="icon"> LATEST BLOG</div>
+   <div class="p-2 h3 font-weight-lighter py-4 pt-6 mt-4"><img src="<?php the_field('section_icon','options');?>" alt="icon"> LATEST BLOG</div>
    <div class="row pt-3 mb-5 d-flex justify-content-between ">
       <?php 
          // the query

@@ -40,7 +40,8 @@
                </li>
                <?php wp_nav_menu( array( 'fallback_cb' => 'custom_primary_menu_fallback', 'menu' => 'main-menu', 'container' => true, 'menu_id' => '', 'menu_class'=>'navbar-nav d-flex justify-content-between w-100  mt-2 mt-lg-0', 'name'=>'primary-menu' ) );?>
                <li class="nav-item">
-                  <i class="icon nav-link bi bi-search"></i>
+                  <div id="cart-no"><span id="no">1</span></div>
+                  <img src="<?php the_field('cart_icon_header','options');?>">
                </li>
             </div>
          </nav>
